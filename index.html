@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/src/assets/ringlogo2.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/sakura-js/dist/sakura.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arvo:ital@0;1&family=Dancing+Script:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Nihal & Fabiha's Reception</title>
+  </head>
+  <body>
+    <div id="root">
+      <div class="cont">
+        <div class="image">
+          <img src="./assets/left2.jpeg" class="image1" alt="image" />
+          <img src="./assets/left2.jpeg" class="image3" alt="image" />
+          <img src="./assets/right2.jpeg" class="image2" alt="image" />
+        </div>
+        <div class="name-plate">
+          <div class="names">
+            <h1>Nihal</h1>
+            <p>&</p>
+            <h2>Fabiha's</h2>
+          </div>
+          <h3 class="punch-line">Reception</h3>
+          <h3 class="date">
+            ON 3rd FEBRUARY 2024 <br />
+            JATRABARI CONVENTION CENTER, DHAKA
+          </h3>
+          <p class="tag">Bless the married couple for a happy life!</p>
+          <p class="dance">dinner & dancing to follow</p>
+          <div class="actions">
+            <button>See the venue</button>
+          </div>
+          <p class="footer">
+            Can't wait to celebrate auspicious moment of our family with you!
+            <br />
+            Just a ping away for any queries: +8801957009313
+          </p>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script src="./node_modules/sakura-js/dist/sakura.min.js"></script>
+    <script>
+      var sakura = new Sakura("body", {
+        colors: [
+          {
+            gradientColorStart: "rgba(35,38,70,255)",
+            gradientColorEnd: "rgba(50,96,138,255)",
+            gradientColorDegree: 120,
+          },
+          {
+            gradientColorStart: "rgba(153,105,36,255)",
+            gradientColorEnd: "rgba(195,164,113,255)",
+            gradientColorDegree: 120,
+          },
+          {
+            gradientColorStart: "rgba(156,198,222,255)",
+            gradientColorEnd: "rgba(14,87,116,255)",
+            gradientColorDegree: 120,
+          },
+        ],
+        fallSpeed: 2,
+        maxSize: 20,
+      });
+    </script>
+  </body>
+</html>
